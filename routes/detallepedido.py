@@ -4,7 +4,7 @@ from models.detallepedido import detallepedidos
 from schemas.detallepedido import DetallePedido
 from cryptography.fernet import Fernet
 from starlette.status import HTTP_204_NO_CONTENT
-
+#Fernet?! que chcha es eso mano
 key = Fernet.generate_key()
 f = Fernet(key)     # Cifrado de contraseña para el usuario https://www.youtube.com/watch?v=6eVj33l5e9M
 
